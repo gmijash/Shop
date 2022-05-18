@@ -1,0 +1,168 @@
+{% extends "base.html" %} {% block title %}Welcome Wanderers{% endblock %} {% block content
+  %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    h1
+     {
+      font-family: "Times New Roman", Times, serif;
+    }
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Oswald"
+    }
+
+
+    body {
+      font-family: "Open Sans"
+    }
+  </style>
+</head>
+<body class="w3-light-grey">
+  <div class="w3-stretch" style="max-width:2000px">
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-64 w3-light-green">
+      <h1 class="w3-jumbo">
+        <b>Wanderer</b>
+      </h1>
+      <h1 class="w3-xlarge">
+        <b>We help you plan, shop and journal your next adventure! <span class="w3-tag">Welcome Wanderers </span></b>
+      </h1>
+      <div class="w3-display-middle" style="width:300%">
+    </header>
+    <div class="w3-bar w3-circle"></div>
+    <div id="Car" class="w3-container w3-white w3-padding-16 myLink">
+      <div align="center">
+      <h3>Search for hikes in your state!</h3>
+      <div align="center">
+      <form action="https://www.traillink.com/trailsearch" method="GET">
+              <input type="text" name="mmloc" placeholder="Enter State Name" >
+      <div align="center">
+        <br>
+        <button class="btn btn-primary" type="submit">Search Hike</button> 
+        </ul>
+        <img src="../static/logo.png" alt="Wonderer" style="width:100%;"/>
+      </div>
+    </div>
+    <br>
+    <div class="w3-stretch" style="max-width:2000px">
+    <img src="../static/1.jpg" alt="Boss" style="width:100%" class="w3-border">
+    <header class="w3-container w3-center w3-padding-16 w3-light-green"></header>
+    </div>
+    <div class="w3-container w3-padding-16 w3-center" id="team">
+       <!-- Info -->
+      <h2>Some Of Our Wanderful Features</h2>
+      <p><strong>Wanderer makes it easy to plan outdoor activities, 
+        no matter what the season, and ensures that essential products can be obtained in our recommended store, which is accessible anywhere via our website.  Wanderer allows you to maintain a digital journal of your travel experiences, whether you wish to relive them or create new ones later on. Wanderer allows you to journal, plan, and shop all at the same time.</strong> </p>
+      <br>
+        <div>
+    <div class="w3-quarter">
+      <img src="../static/e.jpg" alt="Boss" style="width:70%" class="w3-border w3-padding">
+      <h3></h3>
+      <a class="nav-item nav-link" href="/about"><strong>Explore</strong></a>
+      <p>Seach for hikes to begin your adventure.</p> 
+    </div>
+    <div class="w3-quarter">
+      <img src="../static/J.jpg" alt="Boss" style="width:75%" class="w3-border w3-padding">
+      <h3></h3>
+      <a class="nav-item nav-link" href="/home"><strong>Journal</strong></a>
+      <p>Journal hikes to relive memories and plan new ones.</p> 
+    </div>
+    <div class="w3-quarter">
+      <img src="../static/S.jpg" alt="Boss" style="width:70%" class="w3-border w3-padding">
+      <h3></h3>
+      <a class="nav-item nav-link" href="/shop"><strong>Shop</strong></a>
+      <p>Shop for wanderer recommended specialized equipment.</p> 
+    </div>
+    <div class="w3-quarter">
+      <img src="../static/V.jpg" alt="Boss" style="width:70%" class="w3-border w3-padding">
+      <h3></h3>
+      <a class="nav-item nav-link" href="/sign-up"><strong>Memembership</strong></a>
+      <p>Sign-up to gain VIP memember perks.</p> 
+    </div>
+    <br>
+  </pre> 
+    <!-- Team members -->
+    
+    <div class="w3-container w3-padding-64 w3-center" id="team">
+      
+      <h2>OUR TEAM</h2>
+      <p>Meet the team - our office rats:</p>
+      <div class="w3-row">
+        <br>
+        <div class="w3-quarter">
+          <img src="../static/AM.JPG" alt="Boss" style="width:35%" class="w3-circle w3-hover-opacity">
+          <h3>Ashish</h3>
+          <p>Developer</p>
+        </div>
+        <div class="w3-quarter">
+          <img src="../static/mj.png" alt="Boss" style="width:35%" class="w3-circle w3-hover-opacity">
+          <h3>Mijash</h3>
+          <p>Developer</p>
+        </div>
+        <div class="w3-quarter">
+          <img src="../static/MAT.png" alt="Boss" style="width:35%" class="w3-circle w3-hover-opacity">
+          <h3>Mattteo</h3>
+          <p>Developer</p>
+        </div>
+        <div class="w3-quarter">
+          <img src="../static/TB.jpg" alt="Boss" style="width:35%" class="w3-circle w3-hover-opacity">
+          <h3>Ted</h3>
+          <p>Product Owner</p>
+        </div>
+      </div>
+      <br>
+      <br>
+
+        
+        <header class="w3-container w3-center w3-padding w3-black"></header>
+          <div class="w3-quarter"></div>
+          <br>
+      <br>
+      
+
+            <h3>Explore by Wanderer Recommended Popular Local Hikes</h3>
+            <a class="nav-item nav-link" href="https://www.traillink.com/trail-maps/ankeny-rail-trail/"><strong>Ankeny Rail Trail</strong></a>
+            <a class="nav-item nav-link" href="https://www.traillink.com/trail-maps/minto-brown-island-park-paved-path/"><strong>Minto-Brown Island Park Paved Path</strong> </a>
+            <a class="nav-item nav-link" href="https://www.traillink.com/trail-maps/willamette-river-trail/"><strong>Willamette River Trail</strong> </a>
+          
+            <div class="w3-quarter"></div>
+            <h3>Explore by Popular States</h3>
+            <a class="nav-item nav-link" href="https://www.traillink.com/trailsearch/?mmloc=oregon"><strong>Oregon</strong></a>
+            <a class="nav-item nav-link" href="https://www.traillink.com/trailsearch/?state=WA"><strong>Washington</strong> </a>
+            <a class="nav-item nav-link" href="https://www.traillink.com/trailsearch/?state=CA"><strong>California</strong> </a>
+            
+            <header class="w3-container w3-panel h w3-padding-48 w3-light-green">
+              <h1 class="w3-jumbo">
+                <b>Wanderer</b>
+              </h1>
+              <h1 class="w3-xlarge">
+              <span class="w3-tag">Thank you! Wanderers </span></b>
+              </h1>
+              <footer class="w3-container w3-center w3-opacity w3-margin-bottom">
+                <h5>Find Us On</h5>
+                <div class="w3-jumbo w3-padding-16">
+                  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                   <i class="fa fa-snapchat w3-hover-opacity"></i>
+                  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                  <i class="fa fa-twitter w3-hover-opacity"></i>
+                  <i class="fa fa-instagram w3-hover-opacity"></i>
+                </div>
+                  <span class="copyright">&copy; All Right Reerved. MaMiAs.Incs
+                </div>
+                <header class="w3-container w3-center w3 w3-black"></header>
+              </div>
+              
+        </body> 
+</html> {% endblock %}
